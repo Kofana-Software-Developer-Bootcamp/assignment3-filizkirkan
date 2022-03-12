@@ -58,7 +58,7 @@ namespace assignmentfiliz3
 
             string[] products = { "Tomato", "Eggplant", "Onion", "Egg  ", "Bread", "Milk  ", "Toothpaste" };
             string[] units = { "kg", "kg", "kg", "piece", "piece", "bottle", "tube" };
-            double[] prices = { 21.60, 17.90, 12.40, 2.5, 8, 15.45, 33.25 }; //KDV incl. prices
+            double[] prices = { 21.60, 17.90, 12.40, 2.5, 8, 15.45, 33.25 }; //TAX incl. prices
 
             Console.WriteLine("You can see the product list below.");
             
@@ -84,7 +84,7 @@ namespace assignmentfiliz3
                 int unit = Convert.ToInt32(Console.ReadLine());
                 total += prices[productnum - 1] * unit;
 
-                Console.WriteLine("Do you want to continue ? y/n?");
+                Console.WriteLine("Do you want to continue shopping ? y/n?");
                 option = Console.ReadLine();
 
 
@@ -93,7 +93,7 @@ namespace assignmentfiliz3
 
             Console.WriteLine("Thank You :)");
             Console.WriteLine($"SUB TOTAL = {total * 0.82} TL");
-            Console.WriteLine($"KDV = {total * 0.18} TL");
+            Console.WriteLine($"TAX = {total * 0.18} TL");
             Console.WriteLine($"TOTAL = {total} TL");
 
 
