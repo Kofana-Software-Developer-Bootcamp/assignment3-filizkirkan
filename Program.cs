@@ -84,7 +84,7 @@ namespace assignmentfiliz3
                 int unit = Convert.ToInt32(Console.ReadLine());
                 total += prices[productnum - 1] * unit;
 
-                Console.WriteLine("Do you want to continue ? y/n?");
+                Console.WriteLine("Do you want to continue ? Y/N?");
                 option = Console.ReadLine();
 
 
