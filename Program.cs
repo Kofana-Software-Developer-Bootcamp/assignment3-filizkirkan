@@ -57,7 +57,7 @@ namespace assignmentfiliz3
 
 
             string[] products = { "Tomato", "Eggplant", "Onion", "Egg  ", "Bread", "Milk  ", "Toothpaste" };
-            string[] units = { "kg", "kg", "kg", "piece", "piece", "bottle", "tube" };
+            string[] units = { "kg", "kg", "kg", "piece", "loaf", "bottle", "tube" };
             double[] prices = { 21.60, 17.90, 12.40, 2.5, 8, 15.45, 33.25 }; //TAX incl. prices
 
             Console.WriteLine("You can see the product list below.");
